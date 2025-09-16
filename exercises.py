@@ -1,4 +1,15 @@
-def list_to_pow(nums, pow):
+#первое решение, без map, lambda
+
+def list_to_pow_0(nums, pow):
+    n = [i for i in range (1, nums + 1)]
+    nums_pow = [i**pow for i in n]
+    return nums_pow
+    pass
+print(list_to_pow_0(30, 2))
+#kfdjkk
+#второе решение, оптимизация
+
+def list_to_pow_1(nums, pow):
     """ Возводит все элементы списка целых чисел в целую степень
     
     Аргументы:
@@ -12,8 +23,10 @@ def list_to_pow(nums, pow):
         - используйте map и lambda
         - авторское решение занимает 40 символов
     """
+    n = list(map(lambda x: x**pow, range(1, nums + 1)))
+    return n
     pass
-
+print(list_to_pow_1(30, 2))
 
 def naive_encoder(n):
     """ Вычисляет n + nn + nnn для данного n. Например,
@@ -29,8 +42,9 @@ def naive_encoder(n):
         - используйте преобразование типов int и str друг в друга
         - авторское решение занимает 40 символов
     """
+    return n + int(str(n) * 2) + int(str(n) * 3)
     pass
-
+print(naive_encoder(20))
 
 def fibonacci_nth(n):
     """ Вычисляет n-е число Фибоначчи
@@ -46,8 +60,12 @@ def fibonacci_nth(n):
         - используйте множественное присваивание, например: a, b = 1, 1
         - авторское решение занимает 6 строк
     """
+    a, b = 1, 1
+    for i in range(n):
+        a, b = b, a + b
+    return a
     pass
-
+print(fibonacci_nth(10))
 
 def clip_list(objl, a_min, a_max):
     """ Проверяет, что объекты списка objl находятся в диапазоне значений [a_min, a_max]
@@ -71,8 +89,19 @@ def clip_list(objl, a_min, a_max):
             - функцию map и lambda-функцию
             - авторское решение занимает 59 символа
     """
+    list = []
+    for i in objl:
+        if i < a_min:
+            i = a_min
+            list.append(i)
+        if i > a_max:
+            i = a_max
+            list.append(i)
+        if i > a_min and i < a_max:
+            list.append(i)
+    return list
     pass
-
+print(clip_list([1, 34, 23, 48, 35, 90, 378, 344, 196, 187, 288], 25, 199))
 
 def input_to_list():
     """ Запрашивает список целых чисел через стандартный поток в формате
@@ -170,7 +199,12 @@ def is_same_type(objlist):
         - используйте встроенную функцию type
         - авторское решение занимает 39 символов
     """
+    for i in objlist:
+        if type(objlist[0]) != type(objlist[i]):
+            return False
+        return True
     pass
+print(is_same_type([3, 5, 7, 'j', 45, 78, 5]))
 
 
 def file_to_str_list(path):
@@ -188,4 +222,5 @@ def file_to_str_list(path):
         - файловый объект - итерируемый. Итерирование происходит по строкам
         - авторское решение занимает 35 символов
     """
+    
     pass
