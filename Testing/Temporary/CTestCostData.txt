@@ -1,0 +1,8 @@
+Anagrams.TestSameString 1 0.0186348
+Anagrams.TestBasic 1 0.0181166
+Anagrams.TestMixedCase 1 0.0150411
+Anagrams.TestEmptyString 1 0.0144076
+Anagrams.TestRepeatingChars 1 0.0132969
+Anagrams.TestSingleChar 1 0.0119899
+Anagrams.TestRandom 1 0.0137852
+---

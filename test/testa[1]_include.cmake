@@ -1,0 +1,5 @@
+if(EXISTS "C:/Users/Admin/anagrams/build/test/testa[1]_tests.cmake")
+  include("C:/Users/Admin/anagrams/build/test/testa[1]_tests.cmake")
+else()
+  add_test(testa_NOT_BUILT testa_NOT_BUILT)
+endif()

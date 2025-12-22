@@ -1,0 +1,47 @@
+{
+  "tests": 7,
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "Anagrams",
+      "tests": 7,
+      "testsuite": [
+        {
+          "name": "TestSameString",
+          "file": "C:\\Users\\Admin\\anagrams\\test\\test_anagrams.cpp",
+          "line": 8
+        },
+        {
+          "name": "TestBasic",
+          "file": "C:\\Users\\Admin\\anagrams\\test\\test_anagrams.cpp",
+          "line": 13
+        },
+        {
+          "name": "TestMixedCase",
+          "file": "C:\\Users\\Admin\\anagrams\\test\\test_anagrams.cpp",
+          "line": 20
+        },
+        {
+          "name": "TestEmptyString",
+          "file": "C:\\Users\\Admin\\anagrams\\test\\test_anagrams.cpp",
+          "line": 27
+        },
+        {
+          "name": "TestRepeatingChars",
+          "file": "C:\\Users\\Admin\\anagrams\\test\\test_anagrams.cpp",
+          "line": 34
+        },
+        {
+          "name": "TestSingleChar",
+          "file": "C:\\Users\\Admin\\anagrams\\test\\test_anagrams.cpp",
+          "line": 41
+        },
+        {
+          "name": "TestRandom",
+          "file": "C:\\Users\\Admin\\anagrams\\test\\test_anagrams.cpp",
+          "line": 46
+        }
+      ]
+    }
+  ]
+}

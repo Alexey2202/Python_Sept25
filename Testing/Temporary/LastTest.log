@@ -1,0 +1,185 @@
+Start testing: Dec 22 21:07 Новосибирское стандартное время
+----------------------------------------------------------
+1/7 Testing: Anagrams.TestSameString
+1/7 Test: Anagrams.TestSameString
+Command: "C:/Users/Admin/anagrams/build/test/testa.exe" "--gtest_filter=Anagrams.TestSameString" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Admin/anagrams/build/test
+"Anagrams.TestSameString" start time: Dec 22 21:07 Новосибирское стандартное время
+Output:
+----------------------------------------------------------
+Note: Google Test filter = Anagrams.TestSameString
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Anagrams
+[ RUN      ] Anagrams.TestSameString
+[       OK ] Anagrams.TestSameString (0 ms)
+[----------] 1 test from Anagrams (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"Anagrams.TestSameString" end time: Dec 22 21:07 Новосибирское стандартное время
+"Anagrams.TestSameString" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/7 Testing: Anagrams.TestBasic
+2/7 Test: Anagrams.TestBasic
+Command: "C:/Users/Admin/anagrams/build/test/testa.exe" "--gtest_filter=Anagrams.TestBasic" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Admin/anagrams/build/test
+"Anagrams.TestBasic" start time: Dec 22 21:07 Новосибирское стандартное время
+Output:
+----------------------------------------------------------
+Note: Google Test filter = Anagrams.TestBasic
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Anagrams
+[ RUN      ] Anagrams.TestBasic
+[       OK ] Anagrams.TestBasic (0 ms)
+[----------] 1 test from Anagrams (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"Anagrams.TestBasic" end time: Dec 22 21:07 Новосибирское стандартное время
+"Anagrams.TestBasic" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/7 Testing: Anagrams.TestMixedCase
+3/7 Test: Anagrams.TestMixedCase
+Command: "C:/Users/Admin/anagrams/build/test/testa.exe" "--gtest_filter=Anagrams.TestMixedCase" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Admin/anagrams/build/test
+"Anagrams.TestMixedCase" start time: Dec 22 21:07 Новосибирское стандартное время
+Output:
+----------------------------------------------------------
+Note: Google Test filter = Anagrams.TestMixedCase
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Anagrams
+[ RUN      ] Anagrams.TestMixedCase
+[       OK ] Anagrams.TestMixedCase (0 ms)
+[----------] 1 test from Anagrams (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"Anagrams.TestMixedCase" end time: Dec 22 21:07 Новосибирское стандартное время
+"Anagrams.TestMixedCase" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/7 Testing: Anagrams.TestEmptyString
+4/7 Test: Anagrams.TestEmptyString
+Command: "C:/Users/Admin/anagrams/build/test/testa.exe" "--gtest_filter=Anagrams.TestEmptyString" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Admin/anagrams/build/test
+"Anagrams.TestEmptyString" start time: Dec 22 21:07 Новосибирское стандартное время
+Output:
+----------------------------------------------------------
+Note: Google Test filter = Anagrams.TestEmptyString
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Anagrams
+[ RUN      ] Anagrams.TestEmptyString
+[       OK ] Anagrams.TestEmptyString (0 ms)
+[----------] 1 test from Anagrams (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"Anagrams.TestEmptyString" end time: Dec 22 21:07 Новосибирское стандартное время
+"Anagrams.TestEmptyString" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/7 Testing: Anagrams.TestRepeatingChars
+5/7 Test: Anagrams.TestRepeatingChars
+Command: "C:/Users/Admin/anagrams/build/test/testa.exe" "--gtest_filter=Anagrams.TestRepeatingChars" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Admin/anagrams/build/test
+"Anagrams.TestRepeatingChars" start time: Dec 22 21:07 Новосибирское стандартное время
+Output:
+----------------------------------------------------------
+Note: Google Test filter = Anagrams.TestRepeatingChars
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Anagrams
+[ RUN      ] Anagrams.TestRepeatingChars
+[       OK ] Anagrams.TestRepeatingChars (0 ms)
+[----------] 1 test from Anagrams (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"Anagrams.TestRepeatingChars" end time: Dec 22 21:07 Новосибирское стандартное время
+"Anagrams.TestRepeatingChars" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/7 Testing: Anagrams.TestSingleChar
+6/7 Test: Anagrams.TestSingleChar
+Command: "C:/Users/Admin/anagrams/build/test/testa.exe" "--gtest_filter=Anagrams.TestSingleChar" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Admin/anagrams/build/test
+"Anagrams.TestSingleChar" start time: Dec 22 21:07 Новосибирское стандартное время
+Output:
+----------------------------------------------------------
+Note: Google Test filter = Anagrams.TestSingleChar
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Anagrams
+[ RUN      ] Anagrams.TestSingleChar
+[       OK ] Anagrams.TestSingleChar (0 ms)
+[----------] 1 test from Anagrams (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"Anagrams.TestSingleChar" end time: Dec 22 21:07 Новосибирское стандартное время
+"Anagrams.TestSingleChar" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/7 Testing: Anagrams.TestRandom
+7/7 Test: Anagrams.TestRandom
+Command: "C:/Users/Admin/anagrams/build/test/testa.exe" "--gtest_filter=Anagrams.TestRandom" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Admin/anagrams/build/test
+"Anagrams.TestRandom" start time: Dec 22 21:07 Новосибирское стандартное время
+Output:
+----------------------------------------------------------
+Note: Google Test filter = Anagrams.TestRandom
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Anagrams
+[ RUN      ] Anagrams.TestRandom
+[       OK ] Anagrams.TestRandom (0 ms)
+[----------] 1 test from Anagrams (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"Anagrams.TestRandom" end time: Dec 22 21:07 Новосибирское стандартное время
+"Anagrams.TestRandom" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Dec 22 21:07 Новосибирское стандартное время
