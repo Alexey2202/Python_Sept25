@@ -8,8 +8,8 @@ FetchContent_MakeAvailable(googletest)
 
 include_directories("../")
 
-add_executable(testa test_anagrams.cpp)
-target_link_libraries(testa gtest gtest_main pthread)
+add_executable(testms unit_test.cpp)
+target_link_libraries(testms gtest gtest_main pthread)
 
 include(GoogleTest)
-gtest_discover_tests(testa)
+gtest_discover_tests(testms)

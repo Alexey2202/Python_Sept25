@@ -1,12 +1,20 @@
-#include "anagrams.h"
+#include "modular-sorting.h"
+
 #include <iostream>
-#include <string>
+#include <vector>
+
+using namespace std;
 
 int main() {
-    // TODO: implement me
-    std::string a, b;
-    std::getline(std::cin, a);
-    std::getline(std::cin, b);
-    std::cout << (AreAnagrams(a, b) ? "YES" : "NO") << std::endl;
+    int N;
+    cin >> N;
+    vector<int> vec(N);
+    for (int& item : vec) {
+        cin >> item;
+    }
+    ModularSort(vec);
+    for (int item : vec) {
+        cout << item << ' ';
+    }
     return 0;
 }
